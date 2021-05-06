@@ -48,7 +48,7 @@
 
 
 > #### 1.1. Les Classes Métier !
-**https://github.com/Mbourdon95/E4_PROJECT_2/tree/main/C%23/METIER**
+**https://github.com/Mbourdon95/E4_PROJECT_2.0/tree/master/METIER**
 
 > #### 1.2. Les Classes ADO.Net !
-**https://github.com/Mbourdon95/E4_PROJECT_2/tree/main/C%23/DAO**
+**https://github.com/Mbourdon95/E4_PROJECT_2.0/tree/master/DAO**
