@@ -117,7 +117,7 @@ public enum state
 ```` 
 
 > #### 4. Les Classes ADO.Net !
-**https://github.com/Mbourdon95/E4_PROJECT_2/tree/main/C%23/DAO**
+**https://github.com/Mbourdon95/E4_PROJECT_2.0/tree/master/DAO**
 
 > #### 5. Les Windows Forms !
-**https://github.com/Mbourdon95/E4_PROJECT_2/tree/main/C%23/WF**
+**https://github.com/Mbourdon95/E4_PROJECT_2.0/tree/master/WF**
