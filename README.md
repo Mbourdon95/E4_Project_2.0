@@ -28,18 +28,18 @@ using MySql.Data.MySqlClient;
 ### 1. C# :honeybee: :honeybee:
 
 > #### 1.1. Les Classes Métier !
-**https://github.com/Mbourdon95/E4_PROJECT_2/tree/main/C%23/METIER**
+**https://github.com/Mbourdon95/E4_PROJECT_2.0/tree/main/METIER**
 
 > #### 1.2. Les Classes ADO.Net !
-**https://github.com/Mbourdon95/E4_PROJECT_2/tree/main/C%23/DAO**
+**https://github.com/Mbourdon95/E4_PROJECT_2.0/tree/main/DAO**
 
 > #### 1.3. Les Windows Forms !
-**https://github.com/Mbourdon95/E4_PROJECT_2/tree/main/C%23/WF**
+**https://github.com/Mbourdon95/E4_Project_2.0/tree/master/WF**
 
 
 ### 1. Schéma Workbench. :heart: :heart:
 
-**https://github.com/Mbourdon95/E4_PROJECT_2/tree/main/BDD**
+**https://github.com/Mbourdon95/E4_PROJECT_2.0/tree/main/BDD**
 
 ![Capture](https://user-images.githubusercontent.com/71081511/115717487-835a4180-a37a-11eb-8241-f4ed334655c4.PNG)
 
