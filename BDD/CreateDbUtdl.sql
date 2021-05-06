@@ -44,22 +44,4 @@ add constraint fk_Participer_idCourse FOREIGN KEY (idCourse) REFERENCES Course(i
 alter table Lapin
 add constraint fk_Participer_idGerant FOREIGN KEY (idGerant) REFERENCES Gerant(id);
 
-INSERT INTO Lapin (surnom, age,vitesse,endurance,chance) VALUES ('bugs',2,4,3,8);
-INSERT INTO Course(distance,nom) VALUES(42.25,"Marathon De Paris");
-INSERT INTO Participer(idLapin,Gagnant,idCourse) VALUES(1,1,1);
-
-INSERT INTO Lapin (surnom, age,vitesse,endurance,chance) VALUES ('test',2,4,3,8);
-INSERT INTO Course(distance,nom) VALUES(42.25,"Marathon D'Athènes");
-INSERT INTO Course(distance,nom) VALUES(42.25,"test");
-INSERT INTO Participer(idLapin,Gagnant,idCourse) VALUES(2,0,2);
-INSERT INTO Lapin (surnom, age,vitesse,endurance,chance) VALUES ('a',2,4,3,8);
-INSERT INTO Lapin (surnom, age,vitesse,endurance,chance) VALUES ('z',2,4,3,8);
-INSERT INTO Lapin (surnom, age,vitesse,endurance,chance) VALUES ('z',2,4,3,8);
-INSERT INTO Lapin (surnom, age,vitesse,endurance,chance) VALUES ('ezer',2,4,3,8);
-
-INSERT INTO Participer(idLapin,Gagnant,idCourse) VALUES(3,1,2);
-
-INSERT INTO Participer(idLapin,Gagnant,idCourse) VALUES(4,0,1);
-INSERT INTO Participer(idLapin,Gagnant,idCourse) VALUES(5,0,3);
-INSERT INTO Participer(idLapin,Gagnant,idCourse) VALUES(6,0,3);
 
