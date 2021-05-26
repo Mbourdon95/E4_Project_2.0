@@ -57,7 +57,10 @@ namespace WF
             {
                 this.itemLapinsLibres.RemoveAt(this.position);
                 this.itemsLapinsEquipe.Add(this.leLapin);
-                this.leLapin.SetState(state.modified);
+                if (this.leLapin.GetState() == state.unChanged || this.leLapin.GetState() == state.modified)
+                {
+                    this.leLapin.SetState(state.modified);
+                }            
                 this.leLapin.OffreMinimal = 0;
                 this.leLapin.SetIdGerant(this.unGerant.Id);
                 this.items_Count.Text = (5 - itemsLapinsEquipe.Count).ToString() + " / 5";

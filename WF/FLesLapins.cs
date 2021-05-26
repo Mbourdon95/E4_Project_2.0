@@ -73,7 +73,7 @@ namespace WF
             }
             new DaoLapin().SaveChanges(laps);
             new DaoGerant().SaveChanges(this.lEntraineur);
-            this.lapinASave = laps;
+            this.lapinASave= laps;
             var distOrdered = this.lapinASave.OrderBy(n => n.GetId()).ToList();
             this.load((List<Lapins>)distOrdered);
         }
@@ -103,11 +103,14 @@ namespace WF
 
         private void Btn_modif_Click(object sender, EventArgs e)
         {
-            Lapins a = (Lapins)lb_mesLapins.Items[lb_mesLapins.SelectedIndex];
-            a.SetSurnom(tb_sur.Text);
-            a.SetState(state.modified);
+            Lapins leLapin = (Lapins)lb_mesLapins.Items[lb_mesLapins.SelectedIndex];
+            leLapin.SetSurnom(tb_sur.Text);
+            if (leLapin.GetState() == state.unChanged || leLapin.GetState() == state.modified)
+            {
+                leLapin.SetState(state.modified);
+            }
             lb_mesLapins.Items.RemoveAt(lb_mesLapins.SelectedIndex);
-            lb_mesLapins.Items.Add(a);
+            lb_mesLapins.Items.Add(leLapin);
         }
 
         private void Btn_add_Click(object sender, EventArgs e)
